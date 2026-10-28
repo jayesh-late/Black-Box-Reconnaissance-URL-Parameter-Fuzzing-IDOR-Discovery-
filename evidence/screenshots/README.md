@@ -7,6 +7,6 @@ Add your own redacted screenshots here:
 2. `02-api-response-redacted.png` — JSON response structure, with personal and internal fields obscured.
 ![alt text](<Screenshot 2026-10-28 131703.png>)
 3. `03-curl-result-redacted.png` — Kali terminal showing the sanitized cURL request and HTTP status.
-![alt text](<Screenshot 2026-10-28 145734.png>)
+![alt text](<Screenshot 2026-10-28 133042.png>)
 
 
