@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "applications": [
+    {
+      "id": "[REDACTED_APPLICATION_UUID]",
+      "application_number": "[REDACTED_ASSIGNED_APPLICATION_NUMBER]",
+      "full_name": "[REDACTED]",
+      "email": "[REDACTED]",
+      "project_id": "[REDACTED_OR_NONESSENTIAL]",
+      "status": "[OBSERVED_STATUS_REDACTED]",
+      "track_id": "[REDACTED]",
+      "college": "[REDACTED]",
+      "degree": "[REDACTED]",
+      "graduation_year": "[REDACTED]",
+      "experience_level": "[REDACTED]",
+      "objective": "[REDACTED]",
+      "preferred_start_date": "[REDACTED]",
+      "created_at": "[REDACTED_TIMESTAMP]",
+      "review_notes": "[REDACTED_INTERNAL_REVIEW_AND_WORKFLOW_METADATA]",
+      "github_username": "[REDACTED]",
+      "linkedin_url": "[REDACTED]"
+    }
+  ],
+  "_evidence_note": "Sanitized representation of the response structure reported by the assessor; values are intentionally redacted."
+}

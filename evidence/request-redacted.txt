@@ -1,0 +1,19 @@
+# Sanitized request evidence
+
+Date observed: 2026-10-28
+Source: Kali Linux cURL replay
+Target: Datheon training application
+Endpoint: `GET /api/training/auth-app?email=[REDACTED]`
+
+```bash
+curl -i --compressed \
+  'https://www.datheon.in/api/training/auth-app?email=YOUR_URL_ENCODED_EMAIL' \
+  -H 'Accept: */*' \
+  -H 'Referer: https://www.datheon.in/training/dashboard'
+```
+
+The command above is a sanitized reproduction template. The actual tested cURL request did not include explicit `Cookie` or `Authorization` headers.
+
+Observed status: `HTTP/2 200`
+
+Do not commit the original unredacted request or response. Replace the placeholder locally only when reproducing the test against your own assigned record.
